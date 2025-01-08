@@ -26,7 +26,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['https://studybud-r7az.onrender.com']
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
